@@ -20,33 +20,35 @@
 # t.walk()
 
 
-# class Brid:
-#     def __init__(self,name):
-#         self.name=name
-#     def fly(self):
-#         print(f"{self.name} flying")
-# class Pigeon(Brid):
-#     def __init__(self,name):
-#         super().__init__(name)
+class Brid:
+    def __init__(self,name):
+        self.name=name
+    def fly(self):
+        print(f"{self.name} flying")
+class Pigeon(Brid):
+    def __init__(self,name):
+        super().__init__(name)
 
-# class Ostrich(Brid):
-#     def __init__(self,name):
-#         super().__init__(name)
-#     def fly(self):
-#         print(f"{self.name} could not fly.")
-# P=Pigeon("Sujan")
-# P.fly()
+class Ostrich(Brid):
+    def __init__(self,name):
+        super().__init__(name)
+    def fly(self):
+        print(f"{self.name} could not fly.")
+P=Pigeon("Sujan")
+P.fly()
 
-# O=Ostrich("sabin kc")
-# O.fly()
+O=Ostrich("sabin kc")
+O.fly()
 
-# class Hummingbrid(Brid):
-#     def __init__(self,name):
-#         super().__init__(name)
-#     def fly(self):
-#         super().fly()
-#         print(f"{self.name} fly backward")
-# H=Hummingbrid("Suraj")
-# H.fly()
+class Hummingbrid(Brid):
+    def __init__(self,name):
+        super().__init__(name)
+    def fly(self):
+        super().fly()
+        print(f"{self.name} fly backward")
+H=Hummingbrid("Suraj")
+H.fly()
 
+S=Hummingbrid("Saugat")
+S.fly()
 
