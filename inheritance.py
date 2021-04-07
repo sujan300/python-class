@@ -49,6 +49,5 @@ class Hummingbrid(Brid):
 H=Hummingbrid("Suraj")
 H.fly()
 
-S=Hummingbrid("Saugat")
-S.fly()
+
 
