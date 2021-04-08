@@ -18,30 +18,30 @@
 // }
 
 
-// #include<stdio.h>
-// int main(){
-//     int n,sumeven,sumodd;
-//     printf("\n enter number:");
-//     scanf("%d",&n);
-//     int a[n];
+#include<stdio.h>
+int main(){
+    int n,sumeven,sumodd;
+    printf("\n enter number:");
+    scanf("%d",&n);
+    int a[n];
 
-//     for(int i=0; i<n;i++){
-//         printf("\n enter data in array:");
-//         scanf("%d",&a[i]);
-//     }
-//     for(int i=0;i<n;i++){
-//         if(a[i]%2==0){
-//             sumeven=sumeven+a[i];
-//         }
-//         else
-//         {
-//             sumodd=sumodd+a[i];
-//         }
+    for(int i=0; i<n;i++){
+        printf("\n enter data in array:");
+        scanf("%d",&a[i]);
+    }
+    for(int i=0;i<n;i++){
+        if(a[i]%2==0){
+            sumeven=sumeven+a[i];
+        }
+        else
+        {
+            sumodd=sumodd+a[i];
+        }
         
         
-//     }
+    }
 
-//     printf("\n sum of odd is =%d",sumodd);
-//     printf("\n sum of even number is=%d",sumeven);
-//     return 0;
-// }
+    printf("\n sum of odd is =%d",sumodd);
+    printf("\n sum of even number is=%d",sumeven);
+    return 0;
+}
