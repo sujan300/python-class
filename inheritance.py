@@ -46,8 +46,8 @@ class Hummingbrid(Brid):
     def fly(self):
         super().fly()
         print(f"{self.name} fly backward")
-H=Hummingbrid("Suraj")
-H.fly()
+# H=Hummingbrid("Suraj")
+# H.fly()
 
 
 
