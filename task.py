@@ -71,27 +71,27 @@
 # example: 2020 is leap year, 2021 is not
 # Note: Program should ask for user input till user input is incorrect
 
-# def check_leapyear(year):
-#     if year>=1000 and year<=9999:
-#         if year % 400 ==0:
-#             return "leap year"
-#         elif year % 100 == 0:
-#             print("not leap year")
-#             return "not leap year"
-#         elif year % 4 ==0:
-#             return "leap year"
-#         else:
-#             print("not leap year")
-#             return "not leap year"
-#     else:
-#         print("please enter year in 4 digit:")
-#         return "not leap year"
-# year=check_leapyear(int(input("enter year :")))
-# while year=="not leap year":
-#     year=check_leapyear(int(input("enter again year: ")))
+def check_leapyear(year):
+    if year>=1000 and year<=9999:
+        if year % 400 ==0:
+            return "leap year"
+        elif year % 100 == 0:
+            print("not leap year")
+            return "not leap year"
+        elif year % 4 ==0:
+            return "leap year"
+        else:
+            print("not leap year")
+            return "not leap year"
+    else:
+        print("please enter year in 4 digit:")
+        return "not leap year"
+year=check_leapyear(int(input("enter year :")))
+while year=="not leap year":
+    year=check_leapyear(int(input("enter again year: ")))
 
-# if year=="leap year":
-#     print(year)
+if year=="leap year":
+    print(year)
 
 
 # 2. Take five user input, cast into integer. Print count of all the duplicate numbers.
@@ -142,20 +142,20 @@
 # b) [1, 2, ‘3’, 4, 5, ‘6’, 7, 8, 9, 10]
 
 
-# list_a=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# list_b=[1, 2, '3', 4, 5, '6', 7, 8, 9, 10]
+list_a=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list_b=[1, 2, '3', 4, 5, '6', 7, 8, 9, 10]
 
-# sum=0
-# for i in list_a:
-#     sum=sum+i
-# print(f"sum of list a): {sum}")
-# print()
-# sum1=0
-# for i in list_b:
-#     a=int(i)
-#     sum1=sum1+a
+sum=0
+for i in list_a:
+    sum=sum+i
+print(f"sum of list a): {sum}")
+print()
+sum1=0
+for i in list_b:
+    a=int(i)
+    sum1=sum1+a
 
-# print(f"sum of list a) is={sum1}")
+print(f"sum of list a) is={sum1}")
 
 
 # 6. Suppose, we have given list:
